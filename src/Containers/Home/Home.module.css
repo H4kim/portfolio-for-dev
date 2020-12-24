@@ -1,8 +1,39 @@
 .container {
-  height: 100vh;
-  width: 100vw;
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.headerContainer {
+  display: flex;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  align-items: center;
+}
+
+.headerTxt {
+  font-size: 1.5rem;
+}
+
+.headerSpan {
+  display: block;
+}
+
+.infoConatiner {
+  margin-right: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerContainer {
+  display: flex;
 }

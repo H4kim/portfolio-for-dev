@@ -5,7 +5,7 @@ import classes from './App.module.css';
 
 function App() {
   return (
-    <div className={classes.containerx}>
+    <div className={classes.container}>
       <Navbar />
       <Switch>
         <Route exact path='/'>

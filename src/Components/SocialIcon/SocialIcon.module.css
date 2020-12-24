@@ -1,0 +1,17 @@
+/* .iconContainer {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1.5rem;
+  border-radius: 50%;
+  background-color: #67db3d;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.29);
+  transition: ease all 0.3s;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.iconContainer:hover {
+  transform: scale(1.1);
+}

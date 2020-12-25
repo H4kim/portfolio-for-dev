@@ -1,7 +1,6 @@
 import React from 'react'
-import LocationIcon from '../../assets/icons/LocationIcon';
+import { iconsComponents } from '../../Utils/Constants';
 import classes from './SocialIcon.module.css';
-
 
 export const SocialIcon = (props) => {
     const Styles = {
@@ -20,11 +19,23 @@ export const SocialIcon = (props) => {
         }
     }
 
+    const renderIcon = () => {
+        const MyComponent = iconsComponents[props.icon]
+        if(!MyComponent) return null
+        return <MyComponent height={15} width={15} fill={props.iconColor || 'transparent'} />
+    }
+
 
     return (
-        <a href='#' style={Styles.iconContainer} className={classes.iconContainer}>
-           <LocationIcon height={13} width={13} fill={props.iconColor || 'black'}/>
+        // eslint-disable-next-line jsx-a11y/anchor-is-valid
+        <a href={props.link} style={Styles.iconContainer} className={classes.iconContainer}>
+           {renderIcon()}
         </a>
     )
 }
 
+
+/*
+
+
+*/

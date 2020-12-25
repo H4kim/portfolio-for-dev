@@ -3,8 +3,15 @@ import classes from './Home.module.css'
 import photo from '../../assets/hakim.jpeg'; 
 import LocationIcon from '../../assets/icons/LocationIcon';
 import { SocialIcon } from '../../Components/SocialIcon/SocialIcon';
+import { socialLinks } from '../../Utils/Constants';
 
 function Home() {
+
+    const renderIcons = () => {
+        return socialLinks.map(cur => {
+           return <SocialIcon key={cur.id} icon={cur.icon} backColor={cur.backColor} iconColor={cur.iconColor} link={cur.link} />
+        })
+    }
     return (
         <div className={classes.container}>
             <header className={classes.headerContainer}>
@@ -22,10 +29,7 @@ function Home() {
                 <p>Check out my latest projects to see what I'm tending to.</p>
             </div>
             <footer className={classes.footerContainer}>
-                <SocialIcon backColor='#67DB3D' />
-                <SocialIcon backColor='#FFD112' />
-                <SocialIcon backColor='#EEEEEE' />
-                <SocialIcon backColor='#212121' iconColor='white' />
+                {renderIcons()}
             </footer>
 
         </div>

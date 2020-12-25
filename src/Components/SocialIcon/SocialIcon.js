@@ -7,11 +7,11 @@ export const SocialIcon = (props) => {
         iconContainer : {
             'width': '2rem',
             'height': '2rem',
-            'marginRight': '1.5rem',
+            'marginRight': '1rem',
             'borderRadius':' 50%',
             'backgroundColor': props.backColor,
             'boxShadow': '0px 2px 5px rgba(0, 0, 0, 0.29)',
-            'transition': 'ease all 0.3s',
+            'transition': 'ease all 0.1s',
             'cursor': 'pointer',
             'display': 'flex',
             'justifyContent': 'center',
@@ -20,22 +20,14 @@ export const SocialIcon = (props) => {
     }
 
     const renderIcon = () => {
-        const MyComponent = iconsComponents[props.icon]
-        if(!MyComponent) return null
-        return <MyComponent height={15} width={15} fill={props.iconColor || 'transparent'} />
+        const Icon = iconsComponents[props.icon]
+        if(!Icon) return null
+        return <Icon height={18} width={18} fill={props.iconColor || 'none'} />
     }
 
-
     return (
-        // eslint-disable-next-line jsx-a11y/anchor-is-valid
-        <a href={props.link} style={Styles.iconContainer} className={classes.iconContainer}>
+        <a href={props.link} target="_blank" rel="noreferrer" style={Styles.iconContainer} className={classes.iconContainer}>
            {renderIcon()}
         </a>
     )
 }
-
-
-/*
-
-
-*/

@@ -32,10 +32,16 @@
 }
 
 .linksContainer > a {
-  color: rgb(38, 0, 255);
+  color: rgb(0, 110, 255);
   text-decoration: none;
   font-size: 0.9rem;
   margin-right: 1rem;
+  transition: all ease 0.4s;
+  font-weight: 400;
+}
+
+.linksContainer > a:hover {
+  color: red;
 }
 
 .summary {

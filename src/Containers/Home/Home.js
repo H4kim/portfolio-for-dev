@@ -25,11 +25,18 @@ function Home() {
                 </div>
                 <p className={classes.headerTxt}>Taking ideas <span className={classes.headerSpan}>Giving them life</span></p>
             </header>
-            <div style={{marginBottom:'3rem'}}>
-                <p>Check out my latest projects to see what I'm tending to.</p>
+            <div style={{marginBottom:'3rem' , width:'30%'}}>
+                <p>
+                    Hi 👋 My name is John Leonardo, and welcome to my personal website. I'm currently a Software Engineer at IBM, working on the IBM Services team.
+                    Feel free to look around, or just say hi if you want to reach out.
+                </p>
             </div>
             <footer className={classes.footerContainer}>
+                <div style={{display:'flex' , justifyContent:'center' , marginBottom:'1rem'}}>
                 {renderIcons()}
+               </div>
+               
+                <p style={{fontSize:'.6rem'}}>If you don't trust links (you should never 😉), my email is ozil.hakim@gmail.com</p>
             </footer>
 
         </div>

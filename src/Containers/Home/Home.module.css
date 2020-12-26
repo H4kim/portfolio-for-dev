@@ -13,7 +13,7 @@
 
 .headerContainer {
   display: flex;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   align-items: center;
 }
 
@@ -34,4 +34,5 @@
 
 .footerContainer {
   display: flex;
+  flex-direction: column;
 }

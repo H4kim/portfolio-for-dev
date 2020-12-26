@@ -1,9 +1,8 @@
 .container {
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 10rem;
 }
 
 .photo {
@@ -14,7 +13,6 @@
 
 .headerContainer {
   display: flex;
-  margin-top: 10rem;
   margin-bottom: 5rem;
   align-items: center;
 }

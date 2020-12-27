@@ -3,6 +3,7 @@ import Navbar from './Components/NavBar/Navbar'
 import { Route, Switch } from 'react-router-dom'
 import classes from './App.module.css';
 import { Projects } from './Containers/Projects/Projects';
+import Skills from './Containers/Skills/Skills';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         </Route>
         <Route exact path='/projects'>
           <Projects />
+        </Route>
+        <Route exact path='/skills'>
+          <Skills />
         </Route>
       </Switch>
     </div>

@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   margin: 1rem 0;
-  width: 30%;
+  width: 40%;
 }
 
 .title {
@@ -25,10 +25,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* align-self: center; */
   margin-bottom: 0.5rem;
   align-self: center;
-  /* background-color: red; */
 }
 
 .linksContainer > a {
@@ -36,16 +34,28 @@
   text-decoration: none;
   font-size: 0.9rem;
   margin-right: 1rem;
-  transition: all ease 0.4s;
+  transition: all ease 0.3s;
   font-weight: 400;
 }
 
 .linksContainer > a:hover {
-  color: red;
+  color: #67db3d;
 }
 
 .summary {
   display: block;
   font-size: 1rem;
   font-family: Rubik, monospace;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    width: 80%;
+  }
 }

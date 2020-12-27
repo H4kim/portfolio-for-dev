@@ -88,7 +88,4 @@ export const skillsList = [
         name: 'Worpress',
         understandingColor: '#FF4D4F'
     },
-    
-    
-   
 ]

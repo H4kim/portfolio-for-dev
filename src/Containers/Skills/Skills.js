@@ -19,7 +19,7 @@ const styles = {
     }
 }
 
-const Skill = (props) => {
+const Skill = () => {
 
     const renderSkills = () => {
         return skillsList.map(cur => {
@@ -41,7 +41,7 @@ const Skill = (props) => {
                         <li className={classes.understanding}>Knowledgeable <span style={{...styles.colorUnderstanding, ...{'background-color':'#FFC312'}}}></span></li>
                         <li className={classes.understanding}>Beginner <span style={{...styles.colorUnderstanding, ...{'background-color':'#FF4D4F'}}}></span></li>
                     </ul>
-                </div>
+            </div>
         </div>
     )
 }

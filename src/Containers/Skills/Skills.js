@@ -1,11 +1,12 @@
 import classes from './Skills.module.css'
 import React from 'react'
+import { skillsList } from '../../Utils/Constants';
 
 const styles = {
     colorUnderstanding : {
         'display': 'block',
-        'width': '0.6rem',
-        'height': '0.6rem',
+        'width': '0.4rem',
+        'height': '0.4rem',
         'border-radius': '50%',
         'margin-top': '3px',
     },
@@ -19,17 +20,18 @@ const styles = {
 }
 
 const Skill = (props) => {
+
+    const renderSkills = () => {
+        return skillsList.map(cur => {
+            return  <li key={cur.id}>{cur.name} <span style={{...styles.colorLanguages, ...{'background-color':`${cur.understandingColor}`}}}></span></li>
+        })
+    }
     return (
         <div className={classes.container}>
             <p className={classes.title}> Programming Languages <span style={{color:'#67db3d'}}>/</span> Technologies  </p> 
             <div className={classes.listContainer}>
                 <ul className={classes.list}>
-                    <li>Javascript <span style={{...styles.colorLanguages, ...{'background-color':'#0BE881'}}}></span></li>
-                    <li>React js</li>
-                    <li>Node js </li> 
-                    <li>Javascript</li>
-                    <li>React js</li>
-                    <li>Node js </li> 
+                   {renderSkills()}
                 </ul>
             </div>
             <div className={classes.colorsListContainer} >

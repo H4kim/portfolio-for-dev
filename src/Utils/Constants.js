@@ -61,3 +61,34 @@ export const projectsList = [
     },
    
 ]
+
+export const skillsList = [
+    {
+        id:'0',
+        name: 'Javascript',
+        understandingColor: '#0BE881'
+    },
+    {
+        id:'4',
+        name: 'ReactJs',
+        understandingColor: '#0BE881'
+    },
+    {
+        id:'1',
+        name: 'NodeJs',
+        understandingColor: '#1890FF'
+    },
+    {
+        id:'2',
+        name: 'Python',
+        understandingColor: '#FFC312'
+    },
+    {
+        id:'3',
+        name: 'Worpress',
+        understandingColor: '#FF4D4F'
+    },
+    
+    
+   
+]

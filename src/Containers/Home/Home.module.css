@@ -17,8 +17,18 @@
   align-items: center;
 }
 
+.locationInfo {
+  font-weight: 300;
+  margin-left: 3px;
+}
+
 .headerTxt {
   font-size: 1.5rem;
+}
+
+.infos {
+  margin-bottom: 3rem;
+  width: 30%;
 }
 
 .headerSpan {
@@ -35,4 +45,19 @@
 .footerContainer {
   display: flex;
   flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+  .headerContainer {
+    flex-direction: column;
+  }
+  .infos {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .infos {
+    width: 60%;
+  }
 }

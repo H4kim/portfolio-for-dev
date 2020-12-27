@@ -18,14 +18,14 @@ function Home() {
                 <div className={classes.infoConatiner}>
                     <img src={photo} alt='thumb' className={classes.photo}/>
                     <p style={{fontWeight:500}}>Hakim Bencella</p>
-                    <div style={{display:'flex', alignItems:'center'}}>
-                    <LocationIcon height={14} width={14} fill='#EE4047' />
-                    <p style={{fontWeight:300, marginLeft:'3px'}}>Montreal, Quebec, Canada</p>
+                    <div style={{display:'flex', alignItems:'center', marginBottom:'20px'}}>
+                        <LocationIcon height={14} width={14} fill='#EE4047' />
+                        <p className={classes.locationInfo}>Montreal, Quebec, Canada</p>
                     </div>
                 </div>
                 <p className={classes.headerTxt}>Taking ideas <span className={classes.headerSpan}>Giving them life</span></p>
             </header>
-            <div style={{marginBottom:'3rem' , width:'30%'}}>
+            <div className={classes.infos}>
                 <p>
                     Hi 👋 My name is John Leonardo, and welcome to my personal website. I'm currently a Software Engineer at IBM, working on the IBM Services team.
                     Feel free to look around, or just say hi if you want to reach out.

@@ -36,7 +36,7 @@ function Home() {
                 {renderIcons()}
                </div>
                
-                <p style={{fontSize:'.6rem'}}>If you don't trust links (you should never 😉), my email is ozil.hakim@gmail.com</p>
+                <p style={{fontSize:'.6rem', textAlign:'center'}}>If you don't trust links (you should never 😉), my email is ozil.hakim@gmail.com</p>
             </footer>
 
         </div>

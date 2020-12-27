@@ -60,3 +60,22 @@
   background-color: lawngreen;
   margin-top: 3px;
 }
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .title {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .title {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}

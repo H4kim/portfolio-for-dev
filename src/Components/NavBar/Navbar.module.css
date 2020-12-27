@@ -10,11 +10,11 @@ ul {
   padding: 0;
   display: flex;
   justify-content: center;
-  width: 20%;
 }
 
 ul > li {
   margin-right: 15px;
+  font-size: 1rem;
 }
 
 .navLink {
@@ -39,4 +39,16 @@ ul > li {
   background-position: 0 100%;
   background-size: 100% 30%;
   background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  ul > li {
+    font-size: 0.8rem;
+  }
 }

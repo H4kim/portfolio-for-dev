@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename={"h4kim.me"}>
+    <BrowserRouter basename={"/portfolio"}>
       <App />
     </BrowserRouter>
   </React.StrictMode>,

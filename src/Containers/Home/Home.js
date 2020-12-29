@@ -27,7 +27,7 @@ function Home() {
             </header>
             <div className={classes.infos}>
                 <p>
-                    Hi 👋 My name is John Leonardo, and welcome to my personal website. I'm currently a Software Engineer at IBM, working on the IBM Services team.
+                    Hi 👋 My name is Hakim Bencella, and welcome to my personal website. I'm currently looking for new opportunity,
                     Feel free to look around, or just say hi if you want to reach out.
                 </p>
             </div>

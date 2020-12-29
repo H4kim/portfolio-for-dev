@@ -41,7 +41,7 @@ export const projectsList = [
         github: '#',
         link: '#',
         title: 'ZappNode',
-        text:'Even the best of us can have a bad day every now and then. The same can be said for websites. An uptime monitoring service can prepare you for these moments by testing if your site, app or server is still up and running. If some of its features arent working as intended, or if it goes down entirely, the owner will be notified so that they can swiftly start resolving the issue. ZappNode is one of such uptime monitoring services.',
+        text:'An uptime monitoring service can help you by testing if your site, app or server is still up and running. If some of its features arent working as intended, or if it goes down entirely, the owner will be notified so that they can swiftly start resolving the issue. ZappNode is one of such uptime monitoring services.',
     },
     {
         id:'1',

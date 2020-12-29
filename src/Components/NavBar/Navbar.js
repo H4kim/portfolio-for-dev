@@ -7,7 +7,8 @@ function Navbar() {
             <ul>
                 <li><NavLink className={classes.navLink} to='/' exact activeClassName={classes.activeLink}>Me</NavLink></li>
                 <li><NavLink className={classes.navLink} to='/projects' activeClassName={classes.activeLink}>Projects</NavLink></li>
-                <li><NavLink className={classes.navLink} to='/Skills' activeClassName={classes.activeLink}>Skills/Exp</NavLink></li>
+                <li><NavLink className={classes.navLink} to='/Skills' activeClassName={classes.activeLink}>Skills/Education</NavLink></li>
+                <li><NavLink className={classes.navLink} to='/experience' activeClassName={classes.activeLink}>Work Experience</NavLink></li>
             </ul>
         </div>
     )

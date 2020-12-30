@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  width: 50%;
+}
+
+.EducationTitle {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: 1rem;
+  border-left: #5cb85c solid 5px;
+  padding-left: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.companyLink {
+  text-decoration: none;
+  color: rgb(57, 102, 201);
+  font-size: 0.8rem;
+}
+
+.date {
+  color: gray;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.summary {
+  display: block;
+  font-size: 0.9rem;
+  font-family: Rubik, monospace;
+  margin-bottom: 0.5rem;
+}
+.tasksList {
+  font-family: Rubik, monospace;
+  display: flex;
+  flex-direction: column;
+  list-style: circle;
+  width: 97%;
+  align-self: flex-end;
+  line-height: 1.5rem;
+}
+
+.task {
+  font-size: 0.8rem;
+}
+
+/* @media only screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+  }
+   */
+@media only screen and (max-width: 900px) {
+  .container {
+    width: 100%;
+  }
+}

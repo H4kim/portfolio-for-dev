@@ -80,12 +80,43 @@ export const skillsList = [
     },
     {
         id:'2',
-        name: 'Python',
+        name: 'Mongodb',
         understandingColor: '#FFC312'
     },
     {
         id:'3',
         name: 'Worpress',
         understandingColor: '#FF4D4F'
+    },
+    
+]
+
+export const educationList = [
+    {
+        id: 1,
+        courseName: 'All Javascript',
+        instructor:'Jonas',
+        technologies: ['Javascript','Html','Css'],
+        type:'Online Training',
+        courseProvider: 'Udemy',
+        date:'Juin 2018'
+    },
+    {
+        id: 2,
+        courseName: 'React js and Redux',
+        instructor:'Jonas',
+        technologies: ['ReactJs','Redux'],
+        type:'Online Training',
+        courseProvider: 'Udemy',
+        date:'August 2019'
+    },
+    {
+        id: 3,
+        courseName: 'Nodejs full course',
+        instructor:'Jonas',
+        technologies: ['Nodejs','Mongodb','Express','Mongoose'],
+        type:'Online Training',
+        courseProvider: 'Udemy',
+        date:'January 2020'
     },
 ]

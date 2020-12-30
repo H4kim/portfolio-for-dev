@@ -1,6 +1,6 @@
 import classes from './Skills.module.css'
 import React from 'react'
-import { skillsList } from '../../Utils/Constants';
+import { skillsList , educationList} from '../../Utils/Constants';
 import EducationComponent from '../../Components/EducationComponent/EducationComponent';
 
 const styles = {
@@ -8,15 +8,15 @@ const styles = {
         'display': 'block',
         'width': '0.4rem',
         'height': '0.4rem',
-        'border-radius': '50%',
-        'margin-top': '3px',
+        'borderRadius': '50%',
+        'marginTop': '3px',
     },
     colorLanguages : {
         'display': 'block',
         'width': '0.6rem',
         'height': '0.6rem',
-        'border-radius': '50%',
-        'margin-left':'10px'
+        'borderRadius': '50%',
+        'marginLeft':'10px'
     }
 }
 
@@ -24,7 +24,13 @@ const Skill = () => {
 
     const renderSkills = () => {
         return skillsList.map(cur => {
-            return  <li key={cur.id}>{cur.name} <span style={{...styles.colorLanguages, ...{'background-color':`${cur.understandingColor}`}}}></span></li>
+            return  <li key={cur.id}>{cur.name} <span style={{...styles.colorLanguages, ...{'backgroundColor':`${cur.understandingColor}`}}}></span></li>
+        })
+    }
+
+    const renderEducations = () => {
+        return educationList.map(cur => {
+            return  <EducationComponent key={cur.id} data={cur}   />
         })
     }
     return (
@@ -38,19 +44,17 @@ const Skill = () => {
                 </div>
                 <div className={classes.colorsListContainer} >
                         <ul className={classes.colorsList} >
-                            <li className={classes.understanding}>Confident <span style={{...styles.colorUnderstanding, ...{'background-color':'#0BE881'}}}></span></li>
-                            <li className={classes.understanding}>Comfortable <span style={{...styles.colorUnderstanding, ...{'background-color':'#1890FF'}}}></span></li>
-                            <li className={classes.understanding}>Knowledgeable <span style={{...styles.colorUnderstanding, ...{'background-color':'#FFC312'}}}></span></li>
-                            <li className={classes.understanding}>Beginner <span style={{...styles.colorUnderstanding, ...{'background-color':'#FF4D4F'}}}></span></li>
+                            <li className={classes.understanding}>Confident <span style={{...styles.colorUnderstanding, ...{'backgroundColor':'#0BE881'}}}></span></li>
+                            <li className={classes.understanding}>Comfortable <span style={{...styles.colorUnderstanding, ...{'backgroundColor':'#1890FF'}}}></span></li>
+                            <li className={classes.understanding}>Knowledgeable <span style={{...styles.colorUnderstanding, ...{'backgroundColor':'#FFC312'}}}></span></li>
+                            <li className={classes.understanding}>Beginner <span style={{...styles.colorUnderstanding, ...{'backgroundColor':'#FF4D4F'}}}></span></li>
                         </ul>
                 </div>
             </div>
             <div className={classes.educationContainer}>
                 <p className={classes.title}> Education </p> 
                 <ul className={classes.educationListContainer}>
-                    <EducationComponent />
-                    <EducationComponent />
-                    <EducationComponent />
+                    {renderEducations()}
                 </ul>
             </div>
         </div>

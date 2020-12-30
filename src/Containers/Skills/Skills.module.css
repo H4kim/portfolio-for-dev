@@ -8,7 +8,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 3rem;
 }
 
 .title {
@@ -36,6 +35,7 @@
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
+  font-size: 1rem;
 }
 
 .colorsListContainer {
@@ -71,6 +71,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 3rem;
 }
 
 .educationListContainer {
@@ -78,9 +79,13 @@
   flex-direction: column;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 320px) {
   .title {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .list > li {
+    font-size: 0.8rem;
   }
 }
 
@@ -88,11 +93,16 @@
   .title {
     font-size: 0.9rem;
   }
+  .list > li {
+    font-size: 0.8rem;
+  }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 768px) {
   .title {
+    font-size: 1.2rem;
+  }
+  .list > li {
     font-size: 0.8rem;
-    text-align: center;
   }
 }

@@ -24,7 +24,7 @@ const Skill = () => {
 
     const renderSkills = () => {
         return skillsList.map(cur => {
-            return  <li key={cur.id}>{cur.name} <span style={{...styles.colorLanguages, ...{'backgroundColor':`${cur.understandingColor}`}}}></span></li>
+            return  <li key={cur.id} className={classes.skill}>{cur.name} <span style={{...styles.colorLanguages, ...{'backgroundColor':`${cur.understandingColor}`}}}></span></li>
         })
     }
 
@@ -35,6 +35,12 @@ const Skill = () => {
     }
     return (
         <div className={classes.container}>
+            <div className={classes.educationContainer}>
+                <p className={classes.title}> Education </p> 
+                <ul className={classes.educationListContainer}>
+                    {renderEducations()}
+                </ul>
+            </div>
             <div className={classes.skillsContainer}>
                 <p className={classes.title}> Skills </p> 
                 <div className={classes.listContainer}>
@@ -50,12 +56,6 @@ const Skill = () => {
                             <li className={classes.understanding}>Beginner <span style={{...styles.colorUnderstanding, ...{'backgroundColor':'#FF4D4F'}}}></span></li>
                         </ul>
                 </div>
-            </div>
-            <div className={classes.educationContainer}>
-                <p className={classes.title}> Education </p> 
-                <ul className={classes.educationListContainer}>
-                    {renderEducations()}
-                </ul>
             </div>
         </div>
     )

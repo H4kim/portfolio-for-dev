@@ -65,7 +65,22 @@ export const projectsList = [
 export const skillsList = [
     {
         id:'0',
+        name: 'HTML',
+        understandingColor: '#0BE881'
+    },
+    {
+        id:'1',
+        name: 'CSS',
+        understandingColor: '#0BE881'
+    },
+    {
+        id:'0',
         name: 'Javascript',
+        understandingColor: '#0BE881'
+    },
+    {
+        id:'1',
+        name: 'NodeJs (ExpressJs)',
         understandingColor: '#0BE881'
     },
     {
@@ -74,13 +89,33 @@ export const skillsList = [
         understandingColor: '#0BE881'
     },
     {
-        id:'1',
-        name: 'NodeJs',
+        id:'4',
+        name: 'React Native',
         understandingColor: '#1890FF'
     },
     {
         id:'2',
-        name: 'Mongodb',
+        name: 'Mongodb (Mongoose)',
+        understandingColor: '#1890FF'
+    },
+    {
+        id:'0',
+        name: 'Linux',
+        understandingColor: '#1890FF'
+    },
+    {
+        id:'0',
+        name: 'Web Security',
+        understandingColor: '#1890FF'
+    },
+    {
+        id:'0',
+        name: 'Ethical Hacking',
+        understandingColor: '#1890FF'
+    },
+    {
+        id:'0',
+        name: 'Cisco Technologies',
         understandingColor: '#FFC312'
     },
     {
@@ -88,6 +123,8 @@ export const skillsList = [
         name: 'Worpress',
         understandingColor: '#FF4D4F'
     },
+    
+    
     
 ]
 

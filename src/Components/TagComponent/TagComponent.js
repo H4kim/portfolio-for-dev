@@ -12,8 +12,8 @@ const TagComponent = (props) => {
             fontSize:'.7rem',
             fontFamily:'Rubik, monospace',
             alignItems:'center',
-            marginRight:'5px'
-            
+            marginRight:'5px',
+            height:'1rem',
         }
     }
     return (

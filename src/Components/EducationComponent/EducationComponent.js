@@ -10,9 +10,11 @@ const EducationComponent = (props) => {
         <li className={classes.container}>
             <div className={classes.courseDesContainer}>
                 <p className={classes.courseName}>{props.data.courseName}, {props.data.type}, <span style={{fontWeight:300,fontSize:'0.8rem'}}>{props.data.courseProvider}</span></p>
+                <div className={classes.tagsContainer}>
                 {renderTags()}
+                </div>
             </div>
-            <p style={{fontWeight:400,fontSize:'0.9rem', color:'gray'}}> {props.data.date}</p>
+            <p className={classes.date}> {props.data.date}</p>
         </li>
     )
 }

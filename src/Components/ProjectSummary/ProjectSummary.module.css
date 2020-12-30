@@ -46,16 +46,17 @@
   display: block;
   font-size: 1rem;
   font-family: Rubik, monospace;
-}
-
-@media only screen and (max-width: 768px) {
-  .container {
-    width: 100%;
-  }
+  text-align: center;
 }
 
 @media only screen and (max-width: 900px) {
   .container {
     width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
   }
 }

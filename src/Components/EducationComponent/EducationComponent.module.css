@@ -15,4 +15,29 @@
 
 .courseDesContainer {
   display: flex;
+  align-items: center;
+}
+
+.tagsContainer {
+  display: flex;
+}
+
+.date {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: gray;
+}
+@media only screen and (max-width: 768px) {
+  .courseName {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 3px;
+  }
+  .courseDesContainer {
+    flex-direction: column;
+  }
+  .date {
+    align-self: center;
+    margin-top: 3px;
+  }
 }

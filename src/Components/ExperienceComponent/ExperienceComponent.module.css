@@ -48,12 +48,6 @@
   font-size: 0.8rem;
 }
 
-/* @media only screen and (max-width: 768px) {
-    .container {
-      width: 100%;
-    }
-  }
-   */
 @media only screen and (max-width: 900px) {
   .container {
     width: 100%;

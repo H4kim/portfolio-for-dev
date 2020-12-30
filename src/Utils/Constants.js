@@ -120,3 +120,32 @@ export const educationList = [
         date:'January 2020'
     },
 ]
+
+export const experienceList = [
+    {
+        id: 0,
+        role :'Frontend Developer',
+        company:'Quizzito',
+        date :'Mars 2020 - December 2020',
+        summary :'I am a Senior Full-Stack Front-End developer to the RBC Omni (Online Business Banking). My daily tasks are about reviewing my colleague’s code, make technical recommendations, and contribute to building scalable and re-usable modules by collaborating with other production teams, including the design system/platform team. The code I write is targetted to run with Angular 8 in TypeScript 3.4.',
+        tasks: [
+            'views. Allowing to slim down many views that would also need hidden form that were re-implemented numerous times.',
+            'Teach how to write and publish small packages and how to publish on Nexus',
+            'Make module stubs for the Backend chapter to write Express.js middleware in isolation instead of from a monolith'
+        ]
+    
+    },
+    {
+        id: 1,
+        role :'Web Security Researcher',
+        company:'Hackerone',
+        date :'Mars 2020 - December 2020',
+        summary :'I am a Senior Full-Stack Front-End developer to the RBC Omni (Online Business Banking). My daily tasks are about reviewing my colleague’s code, make technical recommendations, and contribute to building scalable and re-usable modules by collaborating with other production teams, including the design system/platform team. The code I write is targetted to run with Angular 8 in TypeScript 3.4.',
+        tasks: [
+            'views. Allowing to slim down many views that would also need hidden form that were re-implemented numerous times.',
+            'Teach how to write and publish small packages and how to publish on Nexus',
+            'Make module stubs for the Backend chapter to write Express.js middleware in isolation instead of from a monolith'
+        ]
+    
+    },
+]

@@ -54,7 +54,7 @@ export const projectsList = [
     {
         id:'2',
         current: true,
-        github: '#',
+        github: 'https://github.com/H4kim/PizzUp',
         link: '#',
         title: 'PizzUp',
         text:'Ecommerce web application dedicated to individuals with small stores ( Restaurants ) it come with a admin dashboard where the admins can CRUD products, categories, customers .. , and also manage the orders in an easy way  also a client part with a clean and clear user interface for users (customers) to be able to order products and see updates',

@@ -4,8 +4,9 @@
   margin-bottom: 1.5rem;
   border-left: 10px solid #5cb85c;
   border-radius: 6px;
-  padding: 4px 0 4px 8px;
+  padding: 4px 8px 4px 8px;
   background-color: rgb(206, 206, 206);
+  width: 100%;
 }
 
 .courseName {

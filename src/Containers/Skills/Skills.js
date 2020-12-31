@@ -2,6 +2,7 @@ import classes from './Skills.module.css'
 import React from 'react'
 import { skillsList , educationList} from '../../Utils/Constants';
 import EducationComponent from '../../Components/EducationComponent/EducationComponent';
+import Title from '../../Components/Title/Title';
 
 const styles = {
     colorUnderstanding : {
@@ -36,13 +37,13 @@ const Skill = () => {
     return (
         <div className={classes.container}>
             <div className={classes.educationContainer}>
-                <p className={classes.title}> Education </p> 
+                <Title bold='Education'></Title>
                 <ul className={classes.educationListContainer}>
                     {renderEducations()}
                 </ul>
             </div>
             <div className={classes.skillsContainer}>
-                <p className={classes.title}> Skills </p> 
+            <Title bold='Skills'></Title>
                 <div className={classes.listContainer}>
                     <ul className={classes.list}>
                     {renderSkills()}

@@ -184,7 +184,7 @@ export const educationList = [
         id: 4,
         courseName: 'Node.js, Express, MongoDB Bootcamp',
         instructor:'Jonas Schmedtmann',
-        technologies: ['Express','Mongoose','Security','CCard Payment','Deploy','SSR','REST'],
+        technologies: ['Express','Mongoose','Security','Payment','Deploy','SSR','REST'],
         type:'Online Training',
         courseProvider: 'Udemy',
         date:'February 2020'

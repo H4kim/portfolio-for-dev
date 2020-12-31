@@ -29,7 +29,7 @@
 
 .infos {
   margin-bottom: 3rem;
-  width: 30%;
+  width: 50%;
 }
 
 .headerSpan {
@@ -48,17 +48,17 @@
   flex-direction: column;
 }
 
+@media only screen and (max-width: 900px) {
+  .infos {
+    width: 70%;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .headerContainer {
     flex-direction: column;
   }
   .infos {
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .infos {
-    width: 60%;
+    width: 90%;
   }
 }

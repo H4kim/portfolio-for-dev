@@ -37,8 +37,8 @@ export const  socialLinks = [
 export const projectsList = [
     {
         id:'0',
-        current: false,
-        github: '#',
+        current: true,
+        github: 'https://github.com/Champion-Devs/ZappNode',
         link: '#',
         title: 'ZappNode',
         text:'An uptime monitoring service can help you by testing if your site, app or server is still up and running. If some of its features arent working as intended, or if it goes down entirely, the owner will be notified so that they can swiftly start resolving the issue. ZappNode is one of such uptime monitoring services.',
@@ -46,10 +46,10 @@ export const projectsList = [
     {
         id:'1',
         current: false,
-        github: '#',
-        link: '#',
-        title: 'Tours',
-        text:'Even the best of us can have a bad day every now and then. The same can be said for websites. An uptime monitoring service can prepare you for these moments by testing if your site, app or server is still up and running. If some of its features arent working as intended, or if it goes down entirely, the owner will be notified so that they can swiftly start resolving the issue. ZappNode is one of such uptime monitoring services.',
+        github: 'https://github.com/H4kim/tours-api',
+        link: 'https://h4kim-tours.herokuapp.com/',
+        title: 'Natours',
+        text:"An awesome tour booking site built on top of NodeJS and mongoDb , the keys features are Authentication and Authorization, Manage booking, check tours map, check user's reviews and rating, Update username, photo, email, and password and Credit card payment using STRIP",
     },
     {
         id:'2',
@@ -57,7 +57,7 @@ export const projectsList = [
         github: '#',
         link: '#',
         title: 'PizzUp',
-        text:'Even the best of us can have a bad day every now and then. The same can be said for websites. An uptime monitoring service can prepare you for these moments by testing if your site, app or server is still up and running. If some of its features arent working as intended, or if it goes down entirely, the owner will be notified so that they can swiftly start resolving the issue. ZappNode is one of such uptime monitoring services.',
+        text:'Ecommerce web application dedicated to individuals with small stores ( Restaurants ) it come with a admin dashboard where the admins can CRUD products, categories, customers .. , and also manage the orders in an easy way  also a client part with a clean and clear user interface for users (customers) to be able to order products and see updates',
     },
    
 ]
@@ -129,32 +129,51 @@ export const skillsList = [
 ]
 
 export const educationList = [
+    
     {
         id: 1,
-        courseName: 'All Javascript',
-        instructor:'Jonas',
-        technologies: ['Javascript','Html','Css'],
+        courseName: 'The Complete JavaScript Course',
+        instructor:'Jonas Schmedtmann',
+        technologies: ['Javascript','Html','Css','OOP', 'Async Js','ES6+','Babel','Parcel'],
         type:'Online Training',
         courseProvider: 'Udemy',
-        date:'Juin 2018'
+        date:'Juin 2019'
     },
     {
         id: 2,
-        courseName: 'React js and Redux',
-        instructor:'Jonas',
-        technologies: ['ReactJs','Redux'],
+        courseName: 'Advanced CSS and Sass',
+        instructor:'Jonas Schmedtmann',
+        technologies: ['Sass','Grid','Flexbox', 'Animations','Responsive', 'Css Architecture'],
         type:'Online Training',
         courseProvider: 'Udemy',
-        date:'August 2019'
+        date:'July 2019'
     },
     {
         id: 3,
-        courseName: 'Nodejs full course',
-        instructor:'Jonas',
-        technologies: ['Nodejs','Mongodb','Express','Mongoose'],
+        courseName: 'React js and Redux',
+        instructor:'Jonas Schmedtmann',
+        technologies: ['ReactJs','Redux'],
         type:'Online Training',
         courseProvider: 'Udemy',
-        date:'January 2020'
+        date:'September 2019'
+    },
+    {
+        id: 4,
+        courseName: 'Node.js, Express, MongoDB Bootcamp',
+        instructor:'Jonas Schmedtmann',
+        technologies: ['Express','Mongoose','Security','CCard Payment','Deploy','SSR','REST'],
+        type:'Online Training',
+        courseProvider: 'Udemy',
+        date:'February 2020'
+    },
+    {
+        id: 5,
+        courseName: 'Cisco CCNA',
+        instructor:'Salah Eddine Zallat',
+        technologies: ['LAN Switching','Security','Routing','Maintenance'],
+        type:'School',
+        courseProvider: 'ICT-TOWERS',
+        date:'July 2019'
     },
 ]
 

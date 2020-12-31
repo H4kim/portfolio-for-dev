@@ -4,7 +4,8 @@
   margin-bottom: 1.5rem;
   border-left: 10px solid #5cb85c;
   border-radius: 6px;
-  padding-left: 8px;
+  padding: 4px 0 4px 8px;
+  background-color: rgb(206, 206, 206);
 }
 
 .courseName {
@@ -28,6 +29,9 @@
   color: gray;
 }
 @media only screen and (max-width: 768px) {
+  .container {
+    text-align: center;
+  }
   .courseName {
     font-size: 0.8rem;
     font-weight: 500;

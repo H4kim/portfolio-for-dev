@@ -59,7 +59,30 @@ export const projectsList = [
         title: 'PizzUp',
         text:'Ecommerce web application dedicated to individuals with small stores ( Restaurants ) it come with a admin dashboard where the admins can CRUD products, categories, customers .. , and also manage the orders in an easy way  also a client part with a clean and clear user interface for users (customers) to be able to order products and see updates',
     },
-   
+    {
+        id:'3',
+        current: false,
+        github: 'https://github.com/H4kim/errors-handler',
+        link: 'https://www.npmjs.com/package/errors-handler',
+        title: 'errors-handler',
+        text:"(NPM PACKAGE NODEJS) Simple and efficient global errors handler that handle errors of development and production , you don't worry about leaking informations in the production",
+    },
+    {
+        id:'4',
+        current: false,
+        github: 'https://github.com/H4kim/BudgetApp',
+        link: 'https://h4kim.github.io/BudgetApp/',
+        title: 'BudgetApp',
+        text:'BudgetApp is an application where the user can add/delete incomes and expences',
+    },
+    {
+        id:'5',
+        current: true,
+        github: 'https://github.com/H4kim/portfolio-for-dev',
+        link: 'https://h4kim.me',
+        title: 'portfolio-for-dev',
+        text:"it tooks me 2 years to decide to build my portfolio, that's why i decided to create portfolio-for-dev to help other developer to not wast time and create their own portfolio in 10min . Simple, well structured and clean",
+    },
 ]
 
 export const skillsList = [
@@ -150,9 +173,9 @@ export const educationList = [
     },
     {
         id: 3,
-        courseName: 'React js and Redux',
-        instructor:'Jonas Schmedtmann',
-        technologies: ['ReactJs','Redux'],
+        courseName: 'React - The Complete Guide (Hooks, React Router, Redux)',
+        instructor:'Maximilian Schwarzmüller',
+        technologies: ['Hooks','Redux','Routing','Animations','Firebase',],
         type:'Online Training',
         courseProvider: 'Udemy',
         date:'September 2019'
@@ -182,26 +205,31 @@ export const experienceList = [
         id: 0,
         role :'Frontend Developer',
         company:'Quizzito',
-        date :'Mars 2020 - December 2020',
-        summary :'I am a Senior Full-Stack Front-End developer to the RBC Omni (Online Business Banking). My daily tasks are about reviewing my colleague’s code, make technical recommendations, and contribute to building scalable and re-usable modules by collaborating with other production teams, including the design system/platform team. The code I write is targetted to run with Angular 8 in TypeScript 3.4.',
+        date :'SEPTEMBER 2020 - December 2020',
+        summary :'Quizzito is platform that affects the areas of education and knowledge it aims to encourage children to read in a dynamic and interactive environment',
         tasks: [
-            'views. Allowing to slim down many views that would also need hidden form that were re-implemented numerous times.',
-            'Teach how to write and publish small packages and how to publish on Nexus',
-            'Make module stubs for the Backend chapter to write Express.js middleware in isolation instead of from a monolith'
+            'Implement new features',
+            'Fix bugs on the UI',
+            'Enhance user interface',
+            'Participate in the UX tasks'
         ]
     
     },
     {
         id: 1,
         role :'Web Security Researcher',
-        company:'Hackerone',
-        date :'Mars 2020 - December 2020',
-        summary :'I am a Senior Full-Stack Front-End developer to the RBC Omni (Online Business Banking). My daily tasks are about reviewing my colleague’s code, make technical recommendations, and contribute to building scalable and re-usable modules by collaborating with other production teams, including the design system/platform team. The code I write is targetted to run with Angular 8 in TypeScript 3.4.',
+        company:'',
+        date :'2017 - 2019',
+        summary :'Security researcher with good knowledge in OWASP top 10. More than2 years of experience around vulnerabilities hunting and bug bounties, mainly on client-side issues. During the past years I helped big tech companies such as Yahoo, Dropbox and Slack ..., by reporting security issues on their platforms and suggesting how fix them, vulnerabilities ranged from low to critical.',
         tasks: [
-            'views. Allowing to slim down many views that would also need hidden form that were re-implemented numerous times.',
-            'Teach how to write and publish small packages and how to publish on Nexus',
-            'Make module stubs for the Backend chapter to write Express.js middleware in isolation instead of from a monolith'
+            'YAHOO: Stored XSS on the main domaine',
+            'SLACK: Stored XSS',
+            'DROPBOX: Traversal to Local File Read',
+            'ZOHO: Several bugs',
+            'Bugs on the integrity and other plateforms',
         ]
     
     },
 ]
+
+

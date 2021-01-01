@@ -1,4 +1,4 @@
-import classes from './Home.module.css'
+import classes from './Home.module.scss'
 import photo from '../../assets/hakim.jpeg'; 
 import LocationIcon from '../../assets/icons/LocationIcon';
 import { SocialIcon } from '../../Components/SocialIcon/SocialIcon';

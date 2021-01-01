@@ -1,6 +1,6 @@
 import React from 'react'
 import { iconsComponents } from '../../Utils/Constants';
-import classes from './SocialIcon.module.css';
+import classes from './SocialIcon.module.scss';
 
 export const SocialIcon = (props) => {
     const Styles = {

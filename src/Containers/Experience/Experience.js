@@ -1,4 +1,4 @@
-import classes from './Experience.module.css'
+import classes from './Experience.module.scss'
 import React from 'react'
 import Title from '../../Components/Title/Title'
 import ExperienceComponent from '../../Components/ExperienceComponent/ExperienceComponent'

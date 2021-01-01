@@ -1,4 +1,4 @@
-import classes from './ExperienceComponent.module.css'
+import classes from './ExperienceComponent.module.scss'
 import React from 'react'
 
 const ExperienceComponent = (props) => {

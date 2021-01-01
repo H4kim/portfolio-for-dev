@@ -1,4 +1,4 @@
-import classes from './EducationComponent.module.css'
+import classes from './EducationComponent.module.scss'
 import React from 'react'
 import TagComponent from '../TagComponent/TagComponent'
 

@@ -1,5 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import classes from './ProjectSummary.module.css'
+import classes from './ProjectSummary.module.scss'
 import React from 'react'
 
 const  ProjectSummary = (props) => {

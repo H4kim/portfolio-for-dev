@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectSummary from '../../Components/ProjectSummary/ProjectSummary'
 import Title from '../../Components/Title/Title'
-import classes from './Projects.module.css'
+import classes from './Projects.module.scss'
 import { projectsList } from '../../Utils/Constants';
 
 export const Projects = () => {

@@ -1,4 +1,4 @@
-import classes from './Skills.module.css'
+import classes from './Skills.module.scss'
 import React from 'react'
 import { skillsList , educationList} from '../../Utils/Constants';
 import EducationComponent from '../../Components/EducationComponent/EducationComponent';

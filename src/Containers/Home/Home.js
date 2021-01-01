@@ -1,4 +1,3 @@
-import React from 'react'
 import classes from './Home.module.css'
 import photo from '../../assets/hakim.jpeg'; 
 import LocationIcon from '../../assets/icons/LocationIcon';
@@ -6,7 +5,6 @@ import { SocialIcon } from '../../Components/SocialIcon/SocialIcon';
 import { socialLinks } from '../../Utils/Constants';
 
 function Home() {
-
     const renderIcons = () => {
         return socialLinks.map(cur => {
            return <SocialIcon key={cur.id} icon={cur.icon} backColor={cur.backColor} iconColor={cur.iconColor} link={cur.link} />

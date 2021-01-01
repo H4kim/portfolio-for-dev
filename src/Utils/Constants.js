@@ -97,12 +97,12 @@ export const skillsList = [
         understandingColor: '#0BE881'
     },
     {
-        id:'0',
+        id:'2',
         name: 'Javascript',
         understandingColor: '#0BE881'
     },
     {
-        id:'1',
+        id:'3',
         name: 'NodeJs (ExpressJs)',
         understandingColor: '#0BE881'
     },
@@ -112,43 +112,40 @@ export const skillsList = [
         understandingColor: '#0BE881'
     },
     {
-        id:'4',
+        id:'5',
         name: 'React Native',
         understandingColor: '#1890FF'
     },
     {
-        id:'2',
+        id:'6',
         name: 'Mongodb (Mongoose)',
         understandingColor: '#1890FF'
     },
     {
-        id:'0',
+        id:'7',
         name: 'Linux',
         understandingColor: '#1890FF'
     },
     {
-        id:'0',
+        id:'8',
         name: 'Web Security',
         understandingColor: '#1890FF'
     },
     {
-        id:'0',
+        id:'9',
         name: 'Ethical Hacking',
         understandingColor: '#1890FF'
     },
     {
-        id:'0',
+        id:'10',
         name: 'Cisco Technologies',
         understandingColor: '#FFC312'
     },
     {
-        id:'3',
+        id:'11',
         name: 'Worpress',
         understandingColor: '#FF4D4F'
     },
-    
-    
-    
 ]
 
 export const educationList = [

@@ -26,7 +26,7 @@ function Home() {
                 <p className={classes.headerTxt}>Taking ideas <span className={classes.headerSpan}>Giving them life</span></p>
             </header>
             <div className={classes.infos}>
-                <p>
+                <p style={{textAlign:'center'}}>
                     Hi 👋 My name is Hakim Bencella, and welcome to my personal website. I'm currently looking for new opportunity,
                     Feel free to look around, or just say hi if you want to reach out.
                 </p>

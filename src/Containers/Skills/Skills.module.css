@@ -10,6 +10,13 @@
   align-items: center;
 }
 
+.skill {
+  font-size: 1rem !important;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .title {
   font-size: 1.3rem;
   font-weight: 500;
@@ -106,5 +113,8 @@
   }
   .list > li {
     font-size: 0.8rem;
+  }
+  .skill {
+    font-size: 0.7rem !important;
   }
 }

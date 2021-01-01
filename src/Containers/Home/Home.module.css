@@ -64,4 +64,7 @@
   .infos {
     width: 90%;
   }
+  .infoConatiner {
+    margin-right: 0;
+  }
 }

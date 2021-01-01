@@ -1,7 +1,7 @@
 import Home from './Containers/Home/Home'
 import Navbar from './Components/NavBar/Navbar'
 import { Route, Switch } from 'react-router-dom'
-import classes from './App.module.css';
+import classes from './App.module.scss';
 import { Projects } from './Containers/Projects/Projects';
 import Skills from './Containers/Skills/Skills';
 import Experience from './Containers/Experience/Experience';

@@ -32,7 +32,7 @@ ul > li {
 .navLink:hover {
   background-image: linear-gradient(
     0deg,
-    var(--theme-primary-color) 100%,
+    var(--theme-secondary-color) 100%,
     #ffffff 0%
   );
   background-position: 100% 100%;
@@ -42,7 +42,7 @@ ul > li {
 .activeLink {
   background-image: linear-gradient(
     0deg,
-    var(--theme-primary-color) 100%,
+    var(--theme-secondary-color) 100%,
     #ffffff 0%
   );
   background-position: 0 100%;

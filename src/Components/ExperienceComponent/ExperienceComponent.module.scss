@@ -9,7 +9,7 @@
   font-size: 1rem;
   font-weight: 500;
   margin-right: 1rem;
-  border-left: #5cb85c solid 5px;
+  border-left: var(--theme-primary-color) solid 5px;
   padding-left: 5px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -18,7 +18,7 @@
 
 .companyLink {
   text-decoration: none;
-  color: rgb(57, 102, 201);
+  color: rgb(47, 113, 255);
   font-size: 0.8rem;
 }
 

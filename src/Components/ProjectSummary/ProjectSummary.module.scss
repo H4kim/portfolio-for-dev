@@ -11,7 +11,11 @@
   font-size: 1.2rem;
   margin-bottom: 3px;
   transition: all 0.4s ease;
-  background: linear-gradient(180deg, transparent 50%, #67db3d 0);
+  background: linear-gradient(
+    180deg,
+    transparent 50%,
+    var(--theme-primary-color) 0
+  );
   background-repeat: no-repeat;
   background-size: 100% 170%;
   cursor: pointer;

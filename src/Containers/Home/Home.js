@@ -3,20 +3,15 @@ import photo from '../../assets/hakim.jpeg';
 import LocationIcon from '../../assets/icons/LocationIcon';
 import { SocialIcon } from '../../Components/SocialIcon/SocialIcon';
 import { socialLinks } from '../../Utils/Constants';
-import  {ThemeContext} from './../../Context/ThemeContext'
-import { useContext } from 'react';
-
 
 function Home() {
-    const ContextTheme = useContext(ThemeContext)
-    
     const renderIcons = () => {
         return socialLinks.map(cur => {
            return <SocialIcon key={cur.id} icon={cur.icon} backColor={cur.backColor} iconColor={cur.iconColor} link={cur.link} />
         })
     }
     return (
-        <div className={`${classes.container} ${ContextTheme.theme === 'light' ? classes.light : classes.dark}`}>
+        <div className={classes.container}>
             <header className={classes.headerContainer}>
                 <div className={classes.infoConatiner}>
                     <img src={photo} alt='thumb' className={classes.photo}/>

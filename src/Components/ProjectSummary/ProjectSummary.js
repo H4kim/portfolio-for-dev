@@ -2,6 +2,7 @@ import classes from './ProjectSummary.module.scss'
 import React from 'react'
 
 const  ProjectSummary = (props) => {
+
     return (
         <div className={classes.container}>
             <p className={classes.title}>{props.title}</p>

@@ -1,11 +1,13 @@
 .light {
   --theme-page-background: #fff;
   --theme-page-text: #111;
+  --theme-first-color: #ffc400;
 }
 
 .dark {
   --theme-page-background: #111;
   --theme-page-text: #fff;
+  --theme-first-color: #ff008c;
 }
 .container {
   min-width: 100vw;

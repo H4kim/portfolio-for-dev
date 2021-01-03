@@ -1,0 +1,16 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+p {
+  color: var(--theme-page-text);
+  font-size: 0.7rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--theme-page-text);
+}

@@ -8,6 +8,7 @@ import Experience from './Containers/Experience/Experience';
 import  {ThemeContext} from './Context/ThemeContext'
 import { useContext } from 'react';
 import SwitchModeBtn from './Components/SwitchModeBtn/SwitchModeBtn';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   const ContextTheme = useContext(ThemeContext)
@@ -35,6 +36,8 @@ function App() {
             <Experience />
           </Route>
         </Switch>
+        {/* please dont remove or update this component */}
+        <Footer /> 
     </div>
   );
 }

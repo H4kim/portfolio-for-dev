@@ -17,8 +17,10 @@ function App() {
   }
   return (
     <div className={`${classes.container} ${ContextTheme.theme === 'light'? classes.light : classes.dark}`}>
-        <Navbar />
-        <SwitchModeBtn onClick={() => toggle()}/>
+        <div className={classes.topbarContainer}>
+          <Navbar />
+          <SwitchModeBtn onClick={() => toggle()}/>
+        </div>
         <Switch>
           <Route exact path='/'>
             <Home/>

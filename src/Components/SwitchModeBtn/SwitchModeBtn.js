@@ -8,13 +8,13 @@ const SwitchModeBtn = (props) => {
     const ContextTheme = useContext(ThemeContext)
     const styles= {
         sunIcon : {
-            width:'22',
-            height:'22',
+            width:'20',
+            height:'20',
             transform: ContextTheme.theme === 'light' ? 'translate(0,0)' : 'translate(0,100)',
         },
         moonIcon: {
-            width:'22',
-            height:'22',
+            width:'20',
+            height:'20',
             transform: ContextTheme.theme === 'dark' ? 'translate(0,0)' : 'translate(0,100)',
 
         }

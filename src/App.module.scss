@@ -1,7 +1,17 @@
+.light {
+  --theme-page-background: #fff;
+  --theme-page-text: #111;
+}
+
+.dark {
+  --theme-page-background: #111;
+  --theme-page-text: #fff;
+}
 .container {
   min-width: 100vw;
   min-height: 100vh;
   padding: 3rem;
+  background-color: var(--theme-page-background);
 }
 
 @media only screen and (max-width: 900px) {

@@ -3,19 +3,24 @@ import photo from '../../assets/hakim.jpeg';
 import LocationIcon from '../../assets/icons/LocationIcon';
 import { SocialIcon } from '../../Components/SocialIcon/SocialIcon';
 import { socialLinks } from '../../Utils/Constants';
+import  {ThemeContext} from './../../Context/ThemeContext'
+import { useContext } from 'react';
+
 
 function Home() {
+    const ContextTheme = useContext(ThemeContext)
+    
     const renderIcons = () => {
         return socialLinks.map(cur => {
            return <SocialIcon key={cur.id} icon={cur.icon} backColor={cur.backColor} iconColor={cur.iconColor} link={cur.link} />
         })
     }
     return (
-        <div className={classes.container}>
+        <div className={`${classes.container} ${ContextTheme.theme === 'light' ? classes.light : classes.dark}`}>
             <header className={classes.headerContainer}>
                 <div className={classes.infoConatiner}>
                     <img src={photo} alt='thumb' className={classes.photo}/>
-                    <p style={{fontWeight:500}}>Hakim Bencella</p>
+                    <p className={classes.name}>Hakim Bencella</p>
                     <div style={{display:'flex', alignItems:'center', marginBottom:'20px'}}>
                         <LocationIcon height={14} width={14} fill='#EE4047' />
                         <p className={classes.locationInfo}>Montreal, Quebec, Canada</p>

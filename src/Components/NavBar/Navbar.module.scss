@@ -1,3 +1,15 @@
+.light {
+  --theme-page-background: #fff;
+  --theme-page-text: #111;
+  --theme-link-background: #ffc400;
+}
+
+.dark {
+  --theme-page-background: #111;
+  --theme-page-text: #fff;
+  --theme-link-background: #ff008cd3;
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -18,7 +30,7 @@ ul > li {
 }
 
 .navLink {
-  color: black;
+  color: var(--theme-page-text);
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 1px;
@@ -29,13 +41,21 @@ ul > li {
 }
 
 .navLink:hover {
-  background-image: linear-gradient(0deg, #ffc400 100%, #ffffff 0%);
+  background-image: linear-gradient(
+    0deg,
+    var(--theme-link-background) 100%,
+    #ffffff 0%
+  );
   background-position: 100% 100%;
   background-size: 100% 40%;
 }
 
 .activeLink {
-  background-image: linear-gradient(0deg, #ffc400 100%, #ffffff 0%);
+  background-image: linear-gradient(
+    0deg,
+    var(--theme-link-background) 100%,
+    #ffffff 0%
+  );
   background-position: 0 100%;
   background-size: 100% 30%;
   background-repeat: no-repeat;

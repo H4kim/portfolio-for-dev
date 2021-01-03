@@ -1,3 +1,13 @@
+.light {
+  --theme-page-background: #fff;
+  --theme-page-text: #111;
+}
+
+.dark {
+  --theme-page-background: #111;
+  --theme-page-text: #fff;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -11,6 +21,11 @@
   border-radius: 50%;
 }
 
+.name {
+  font-weight: 500;
+  color: var(--theme-page-text);
+}
+
 .headerContainer {
   display: flex;
   margin-bottom: 3rem;
@@ -21,15 +36,18 @@
 .locationInfo {
   font-weight: 300;
   margin-left: 3px;
+  color: var(--theme-page-text);
 }
 
 .headerTxt {
   font-size: 1.5rem;
+  color: var(--theme-page-text);
 }
 
 .infos {
   margin-bottom: 3rem;
   width: 50%;
+  color: var(--theme-page-text);
 }
 
 .headerSpan {
@@ -46,6 +64,7 @@
 .footerContainer {
   display: flex;
   flex-direction: column;
+  color: var(--theme-page-text);
 }
 
 @media only screen and (max-width: 900px) {

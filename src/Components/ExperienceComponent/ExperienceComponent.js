@@ -10,7 +10,7 @@ const ExperienceComponent = (props) => {
 
     return (
         <div className={classes.container}>
-            <p className={classes.EducationTitle}> {role}, <a href='https://quizzito.com/main/language/change/english' className={classes.companyLink}>{company}</a>.</p>
+            <p className={classes.experienceTitle}> {role}, <a href='https://quizzito.com/main/language/change/english' className={classes.companyLink}>{company}</a>.</p>
             <p className={classes.date}>{date}</p>
             <p className={classes.summary} >{summary}</p>
             <ul className={classes.tasksList}>

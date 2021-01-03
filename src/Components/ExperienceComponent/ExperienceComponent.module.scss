@@ -5,7 +5,7 @@
   width: 50%;
 }
 
-.EducationTitle {
+.experienceTitle {
   font-size: 1rem;
   font-weight: 500;
   margin-right: 1rem;
@@ -13,6 +13,7 @@
   padding-left: 5px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+  color: var(--theme-page-text);
 }
 
 .companyLink {
@@ -33,6 +34,7 @@
   font-size: 0.9rem;
   font-family: Rubik, monospace;
   margin-bottom: 0.5rem;
+  color: var(--theme-page-text);
 }
 .tasksList {
   font-family: Rubik, monospace;
@@ -46,6 +48,7 @@
 
 .task {
   font-size: 0.8rem;
+  color: var(--theme-page-text);
 }
 
 @media only screen and (max-width: 900px) {

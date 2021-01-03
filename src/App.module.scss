@@ -2,12 +2,20 @@
   --theme-page-background: #fff;
   --theme-page-text: #111;
   --theme-primary-color: #ffc400;
+  --theme-button-linear-gradient: linear-gradient(
+    rgb(40, 40, 243) 1%,
+    rgb(2, 213, 250) 80%
+  );
 }
 
 .dark {
   --theme-page-background: #111;
   --theme-page-text: #fff;
   --theme-primary-color: #ff008c;
+  --theme-button-linear-gradient: linear-gradient(
+    rgb(3, 3, 94) 10%,
+    rgb(129, 129, 129)
+  );
 }
 .container {
   min-width: 100vw;

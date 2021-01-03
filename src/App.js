@@ -7,6 +7,7 @@ import Skills from './Containers/Skills/Skills';
 import Experience from './Containers/Experience/Experience';
 import  {ThemeContext} from './Context/ThemeContext'
 import { useContext } from 'react';
+import SwitchModeBtn from './Components/SwitchModeBtn/SwitchModeBtn';
 
 function App() {
   const ContextTheme = useContext(ThemeContext)
@@ -17,7 +18,7 @@ function App() {
   return (
     <div className={`${classes.container} ${ContextTheme.theme === 'light'? classes.light : classes.dark}`}>
         <Navbar />
-        <button onClick={() => toggle()}>Switch Theme</button>
+        <SwitchModeBtn onClick={() => toggle()}/>
         <Switch>
           <Route exact path='/'>
             <Home/>

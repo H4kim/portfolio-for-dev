@@ -4,6 +4,10 @@ This is a ReactJS based personal resume for developers that include Project,Expe
 
 - next : Add latest Github projects
 
+# LIVE PREVIEW :
+
+https://h4kim.me
+
 ## Make it Your Own!
 
 You need a portfolio ? yeah, i'm sure you don't have time to build one from scratch.

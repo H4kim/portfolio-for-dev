@@ -10,7 +10,7 @@ export const  socialLinks = [
         icon: 'emailIcon',
         backColor: '#EEEEEE',
         // iconColor:'#67DB3D',
-        link:'mailito:ozil.hakim@gmail.com'
+        link:'mailto:ozil.hakim@gmail.com'
     },
     {
         id:'linkedIn',

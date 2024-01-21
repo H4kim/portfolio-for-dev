@@ -6,7 +6,7 @@ This is a ReactJS based personal resume for developers that include Project,Expe
 
 # LIVE PREVIEW :
 
-https://h4kim.me
+[LINK](https://h4kim.netlify.app/)
 
 ## Make it Your Own!
 
@@ -36,7 +36,7 @@ if you want to contribute to this project you can do the following
 - Add a loader
 - Animations 🙉
 
-And if you have something to suggest feel free too contact me : `ozil.hakim@gmail.com`
+And if you have something to suggest feel free too open an issue.
 
 ## Credits
 

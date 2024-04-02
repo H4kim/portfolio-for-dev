@@ -15,8 +15,9 @@ const ExperienceComponent = props => {
    return (
       <div className={classes.container}>
          <p className={classes.experienceTitle}>
+            {" "}
             {role},{" "}
-            <a href="" className={classes.companyLink}>
+            <a href="/" className={classes.companyLink}>
                {company}
             </a>
             .

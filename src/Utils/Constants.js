@@ -85,68 +85,8 @@ export const projectsList = [
    }
 ];
 
-export const skillsList = [
-   {
-      id: "0",
-      name: "HTML",
-      understandingColor: "#0BE881"
-   },
-   {
-      id: "1",
-      name: "CSS",
-      understandingColor: "#0BE881"
-   },
-   {
-      id: "2",
-      name: "Javascript",
-      understandingColor: "#0BE881"
-   },
-   {
-      id: "3",
-      name: "NodeJs (ExpressJs)",
-      understandingColor: "#0BE881"
-   },
-   {
-      id: "4",
-      name: "ReactJs",
-      understandingColor: "#0BE881"
-   },
-   {
-      id: "5",
-      name: "React Native",
-      understandingColor: "#1890FF"
-   },
-   {
-      id: "6",
-      name: "Mongodb (Mongoose)",
-      understandingColor: "#1890FF"
-   },
-   {
-      id: "7",
-      name: "Linux",
-      understandingColor: "#1890FF"
-   },
-   {
-      id: "8",
-      name: "Web Security",
-      understandingColor: "#1890FF"
-   },
-   {
-      id: "9",
-      name: "Ethical Hacking",
-      understandingColor: "#1890FF"
-   },
-   {
-      id: "10",
-      name: "Cisco Technologies",
-      understandingColor: "#FFC312"
-   },
-   {
-      id: "11",
-      name: "Worpress",
-      understandingColor: "#FF4D4F"
-   }
-];
+export const skills =
+   "Javascript - Nodejs - Python - Elixir - Reactjs - React-native - Redux - AWS - Git - Gitlab CI - Rest APIs - Websocket - Docker - Mongodb - Linux - Bash scripting - Ethical Hacking - Nginx - Testing - CI/CD";
 
 export const educationList = [
    {

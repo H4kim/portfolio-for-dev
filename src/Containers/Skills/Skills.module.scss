@@ -1,122 +1,39 @@
 .container {
-  display: flex;
-  flex-direction: column;
-  padding-top: 5rem;
+   display: flex;
+   flex-direction: column;
+   padding-top: 5rem;
 }
 
 .skillsContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
-.skill {
-  font-size: 1rem !important;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.title {
-  font-size: 1.3rem;
-  font-weight: 500;
-  margin-bottom: 2rem;
-}
-
-.listContainer {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-.list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  list-style: disc;
-}
-
-.list > li {
-  margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
-  font-size: 1rem;
-  color: var(--theme-page-text);
-}
-
-.colorsListContainer {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-}
-
-.colorsList {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.understanding {
-  display: flex;
-  flex-direction: column;
-  font-size: 0.7rem;
-  align-items: center;
-  color: var(--theme-page-text);
-}
-
-.color {
-  display: block;
-  width: 0.6rem;
-  height: 0.6rem;
-  border-radius: 50%;
-  background-color: lawngreen;
-  margin-top: 3px;
+.skillsListContainer {
+   display: flex;
+   flex-direction: column;
+   width: 80%;
+   margin-bottom: 2rem;
+   margin-top: 2rem;
+   justify-content: center;
 }
 
 .educationContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 3rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 3rem;
 }
 
 .educationListContainer {
-  display: flex;
-  flex-direction: column;
-  margin-top: 2rem;
-}
-
-@media only screen and (max-width: 320px) {
-  .title {
-    font-size: 0.8rem;
-    text-align: center;
-  }
-  .list > li {
-    font-size: 0.8rem;
-  }
+   display: flex;
+   flex-direction: column;
+   margin-top: 2rem;
 }
 
 @media only screen and (max-width: 480px) {
-  .title {
-    font-size: 0.9rem;
-  }
-  .list > li {
-    font-size: 0.8rem;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .title {
-    font-size: 1.2rem;
-  }
-  .list > li {
-    font-size: 0.8rem;
-  }
-  .skill {
-    font-size: 0.7rem !important;
-  }
+   .skillsListContainer {
+      width: 90%;
+   }
 }
